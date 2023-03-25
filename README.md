@@ -3,8 +3,9 @@
 ### Animation Library
 This is a collection of CSS keyframe animations and transitions that you can use to add some visual interest to your web projects.
 
-Animations
-Bounce
+## Animations
+
+# Bounce
 ```
 .animation-bounce {
   animation: bounce 1s ease-in-out infinite;
@@ -12,7 +13,7 @@ Bounce
 ```
 This animation causes an element to bounce up and down.
 
-Slide Left
+# Slide Left
 
 ```
 .animation-slide-left {
@@ -21,7 +22,7 @@ Slide Left
 ```
 This animation slides an element to the left while fading out.
 
-Slide Right
+# Slide Right
 ```
 .animation-slide-right {
   animation: slide-right 1s ease-in-out;
@@ -29,7 +30,7 @@ Slide Right
 ```
 This animation slides an element to the right while fading out.
 
-Rotate
+# Rotate
 ```
 .animation-rotate {
   animation: rotate 1s ease-in-out infinite;
@@ -37,7 +38,7 @@ Rotate
 ```
 This animation rotates an element continuously.
 
-Shake
+# Shake
 ```
 .animation-shake {
   animation: shake 1s ease-in-out infinite;
@@ -45,7 +46,7 @@ Shake
 ```
 This animation shakes an element back and forth.
 
-Grow/Shrink
+# Grow/Shrink
 ```
 .animation-grow-shrink {
   animation: grow-shrink 1s ease-in-out infinite;
@@ -53,7 +54,7 @@ Grow/Shrink
 ```
 This animation makes an element grow and shrink repeatedly.
 
-Pop
+# Pop
 ```
 .animation-pop {
   animation: pop 1s ease-in-out;
