@@ -1,0 +1,136 @@
+/* Keyframe Animations */
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes slide-left {
+  0% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+}
+
+@keyframes slide-right {
+  0% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+}
+
+@keyframes rotate {
+  0% { transform: rotate(0); }
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes shake {
+  0% { transform: translateX(0); }
+  10% { transform: translateX(-10px); }
+  20% { transform: translateX(10px); }
+  30% { transform: translateX(-10px); }
+  40% { transform: translateX(10px); }
+  50% { transform: translateX(-10px); }
+  60% { transform: translateX(10px); }
+  70% { transform: translateX(-10px); }
+  80% { transform: translateX(10px); }
+  90% { transform: translateX(-10px); }
+  100% { transform: translateX(0); }
+}
+
+@keyframes grow-shrink {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.5); }
+  100% { transform: scale(1); }
+}
+
+@keyframes pop {
+  0% { transform: scale(0.9); }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
+
+/* Transitions */
+
+.transition-rotate {
+  transition: transform 0.3s ease-in-out;
+}
+
+.transition-shake {
+  transition: transform 0.3s ease-in-out;
+}
+
+.transition-grow-shrink {
+  transition: transform 0.3s ease-in-out;
+}
+
+.transition-pop {
+  transition: transform 0.3s ease-in-out;
+}
+
+.transition-bounce {
+  transition: transform 0.3s ease-in-out;
+}
+
+.transition-slide-left {
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.transition-slide-right {
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+/* Animations */
+
+.animation-rotate {
+  animation: rotate 1s ease-in-out infinite;
+}
+
+.animation-shake {
+  animation: shake 1s ease-in-out infinite;
+}
+
+.animation-grow-shrink {
+  animation: grow-shrink 1s ease-in-out infinite;
+}
+
+.animation-pop {
+  animation: pop 1s ease-in-out;
+}
+
+.animation-bounce {
+  animation: bounce 1s ease-in-out infinite;
+}
+
+.animation-slide-left {
+  animation: slide-left 1s ease-in-out;
+}
+
+.animation-slide-right {
+  animation: slide-right 1s ease-in-out;
+}
+
+/* Usage Examples */
+
+/* Rotate animation */
+.my-element.rotate {
+  transform-origin: center center;
+  animation: rotate 1s ease-in-out infinite;
+}
+
+/* Shake
